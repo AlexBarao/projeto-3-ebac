@@ -1,0 +1,93 @@
+.navbar{
+    font-family: reggae one, roboto;
+    background-color: black;
+}
+
+.navbar h1,
+.navbar a{
+    color: red;
+}
+
+.i{
+    color: white;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: yellow;
+    color: green;
+}
+
+#sobre-o-gpo, #c{
+    background-color: black;
+}
+
+.carousel-inner{
+    margin-left: 360px;
+}
+
+.text-colored{
+    color: red;
+}
+
+.section-title{
+    color: red;
+}
+
+.container p{
+    color: #fff;
+}
+
+#coluna{
+    margin-left: 340px;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+#fale-conosco{
+    display: inline-flex;
+}
+
+#contato{
+    margin-left: 160px;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+#fale-conosco button{
+    background-color: #fff;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-link.active:hover{
+    color: red;
+}
+
+#contato p{
+    color: red;
+}
+
+@media (max-width:676px) {
+    .carousel-item img{
+        height: 300px;
+        margin-right: 200px;
+    }
+
+    #coluna{
+        margin-left: 0
+        };
+
+    #fale-conosco{
+        display: inline-block;
+    }
+
+    .carousel-inner{
+        margin-left: 100px;
+    }
+    }
